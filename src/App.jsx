@@ -7,6 +7,9 @@ import TicketList from "./components/TicketList";
 
 import ticketsData from "./assets/data/tickets.json";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
 
   const [tickets, setTickets] = useState(ticketsData);
@@ -15,13 +18,21 @@ function App() {
 
   const handleStartTask = (ticket) => {
 
+    const exists = tasks.find(task => task.id === ticket.id);
+
+    if (exists) {
+      toast.error("Task already started!");
+      return;
+    }
+
     setTasks([...tasks, ticket]);
+
+    toast.success("Ticket moved to In Progress");
+
 
   };
 
   const handleComplete = (id) => {
-
-    const completedTask = tasks.find(task => task.id === id);
 
     const remainingTasks = tasks.filter(task => task.id !== id);
 
@@ -32,6 +43,8 @@ function App() {
     const remainingTickets = tickets.filter(ticket => ticket.id !== id);
 
     setTickets(remainingTickets);
+
+    toast.success("Ticket resolved successfully!");
 
   };
 
@@ -62,7 +75,7 @@ function App() {
         </div>
 
       </div>
-
+      <ToastContainer />
     </>
   );
 }
