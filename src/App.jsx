@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import ticketsData from "./assets/data/tickets.json";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TaskStatus from "./components/TaskStatus";
 import TicketList from "./components/TicketList";
 
-import ticketsData from "./assets/data/tickets.json";
-
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 
 function App() {
 
@@ -75,6 +76,7 @@ function App() {
         </div>
 
       </div>
+      <Footer />
       <ToastContainer />
     </>
   );
