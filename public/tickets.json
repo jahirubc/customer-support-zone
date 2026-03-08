@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Payment Failed",
+    "description": "Customer unable to complete payment",
+    "customer": "Rahim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 3,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 4,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 5,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 6,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 7,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 8,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 9,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+    {
+    "id": 10,
+    "title": "Login Issue",
+    "description": "Customer cannot login",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  }
+]
