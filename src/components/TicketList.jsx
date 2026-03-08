@@ -1,11 +1,7 @@
 import TicketCard from "./TicketCard";
-
 const TicketList = ({ tickets, handleStartTask }) => {
-
   return (
-
     <div className="grid grid-cols-2 gap-4">
-
       {
         tickets.map(ticket => (
           <TicketCard
@@ -15,9 +11,7 @@ const TicketList = ({ tickets, handleStartTask }) => {
           />
         ))
       }
-
     </div>
-
   );
 };
 
