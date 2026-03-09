@@ -15,4 +15,8 @@ How can you share state between components in React?
 State can be shared between components with lifting the state up to a common parent component.
 
 How is event handling done in React?
+<<<<<<< HEAD
 By passing a function as the event handler.
+=======
+By passing a function as the event handler.
+>>>>>>> 7c37df94b6539421f0e4eba6be19739589c058f8
